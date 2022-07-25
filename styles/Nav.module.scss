@@ -1,0 +1,17 @@
+$bg-color: #fff;
+
+.nav {
+  background-color: $bg-color;
+  height: 70px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-left: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+  .nav_name {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+  }
+}

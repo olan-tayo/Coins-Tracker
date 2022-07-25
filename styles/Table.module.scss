@@ -1,0 +1,141 @@
+/* ------------------MEDIA QUERY SECTION ------------------------- */
+/* Media query for tablets and screens higher */
+@media (min-width: 280px) {
+  .main_table_container {
+    background-color: #f0f8ff;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    font-family: 'Roboto';
+    border-radius: 3px;
+    font-size: 12px;
+    width: 1000px;
+
+    div {
+      width: 300px;
+      padding: 10px;
+    }
+  }
+
+  .table_row {
+    font-size: 12px;
+    margin-top: 8px;
+    display: flex;
+    border-radius: 3px;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Roboto';
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width: 1000px;
+
+    div {
+      width: 300px;
+      padding: 10px;
+    }
+
+    &:hover {
+      background-color: #f0f8ff;
+    }
+  }
+
+  .table_img_div {
+    display: flex;
+
+    img {
+      margin-right: 9px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .main_table_container {
+    background-color: #f0f8ff;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    font-family: 'Roboto';
+    border-radius: 3px;
+    font-size: 15px;
+    width: 100%;
+
+    div {
+      width: 16.6%;
+      padding: 10px;
+    }
+  }
+
+  .table_row {
+    font-size: 15px;
+    margin-top: 8px;
+    display: flex;
+    border-radius: 3px;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Roboto';
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+    div {
+      width: 16.6%;
+      padding: 10px;
+    }
+
+    &:hover {
+      background-color: #f0f8ff;
+    }
+  }
+
+  .table_img_div {
+    display: flex;
+
+    img {
+      margin-right: 9px;
+    }
+  }
+}
+
+/* sreens higher than tablets */
+@media (min-width: 1024px) {
+  .main_table_container {
+    background-color: #f0f8ff;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    font-family: 'Roboto';
+    border-radius: 3px;
+    font-size: 15px;
+
+    div {
+      width: 16.6%;
+      padding: 10px;
+    }
+  }
+
+  .table_row {
+    font-size: 15px;
+    margin-top: 8px;
+    display: flex;
+    border-radius: 3px;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Roboto';
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+    div {
+      width: 16.6%;
+      padding: 10px;
+    }
+
+    &:hover {
+      background-color: #f0f8ff;
+    }
+  }
+
+  .table_img_div {
+    display: flex;
+
+    img {
+      margin-right: 9px;
+    }
+  }
+}
